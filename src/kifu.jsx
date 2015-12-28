@@ -6,7 +6,7 @@
  */
 import React from "react";
 import JKFPlayer from "json-kifu-format";
-import {Color} from "json-kifu-format/node_modules/shogi.js";
+import {Color} from "shogi.js";
 import {DragDropContext, DropTarget, DragSource} from "react-dnd";
 import HTML5Backend, {NativeTypes} from "react-dnd/modules/backends/HTML5";
 
